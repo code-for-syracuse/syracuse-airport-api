@@ -2,6 +2,14 @@
 
 An API for flight data from the Syracuse Hancock International Airport.
 
+## Rationale
+
+The Syracuse Hancock International Airport currently publishes an XML file with flight data that is used on the organization's [public website](http://www.syrairport.org/).
+
+In a way, this is awesome and the data is far easier to use than the data from many other public public organizations. However, this XML file is not as flexible as a full REST API, which would allow for searches by flight number, by gate assignment, etc.
+
+To create a lightweight REST interface on top of the existing airport flight information XML file, this project uses [Node.js](https://nodejs.org/en/) and [XPath](https://www.npmjs.com/package/xml2js-xpath) to parse the XML file and expose search paths that make this data more easily consumed by civic apps.
+
 ## Example usage
 
 Get flights by flight number
