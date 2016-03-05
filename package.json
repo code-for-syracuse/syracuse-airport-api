@@ -1,0 +1,14 @@
+{
+  "name": "syracuse-airport-api",
+  "version": "0.0.1",
+  "description": "An API for flight information from the Syracuse Hancock International Airport",
+  "main": "index.js",
+  "author": "Mark Headd <mheadd@gmail.com> (http://civic.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4",
+    "request": "^2.69.0",
+    "xml2js": "^0.4.16",
+    "xml2js-xpath": "^0.6.0"
+  }
+}
