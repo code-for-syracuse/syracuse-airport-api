@@ -57,7 +57,6 @@ function getFlightInfo (match_string, req, res) {
 					else {
 						res.json(matches);
 					}
-					
 				});
 			}
 			catch(e) {
