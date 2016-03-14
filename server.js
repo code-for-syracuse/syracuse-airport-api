@@ -1,4 +1,4 @@
-// Include required modules.
+	// Include required modules.
 var xml2js = require('xml2js');
 var xpath = require('xml2js-xpath');
 var request = require('request');
@@ -10,7 +10,7 @@ var app = express();
 var server;
 
 exports.start = function () {
-	var port = process.argv[2] || 4000;
+	var port = process.argv[2] || 3000;
 	server = app.listen(port);
 }
 exports.stop = function() {
