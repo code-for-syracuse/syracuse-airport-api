@@ -59,4 +59,7 @@ Get all flights
 
 ```
 ~$ http://apis.opensyracuse.org/flightinfo/
+
 ```
+
+Note: JSONP is supported by using a ```callback``` parameter with requests.
