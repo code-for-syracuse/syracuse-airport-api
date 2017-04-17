@@ -1,21 +1,21 @@
-var chai = require('chai');
-var chaiHttp = require('chai-http');
-var server = require('../server');
-var should = chai.should();
+const chai = require('chai');
+const chaiHttp = require('chai-http');
+const server = require('../server');
+const should = chai.should();
 
 chai.use(chaiHttp);
 
-describe('Syracuse Airport flight information API', function () {
-	before(function () {
+describe('Syracuse Airport flight information API', () => {
+	before(() => {
 		server.start();
 	});
 
-	describe('Tests', function() {
+	describe('Tests', () => {
 
-	  it('Should return valid JSON with GET (all flights)', function(done) {
+	  it('Should return valid JSON with GET (all flights)', (done) => {
 	  	chai.request(server.app)
 	  	.get('/')
-	  	    .end(function(err, res){
+	  	    .end((err, res) => {
 		      res.should.have.status(200);
 		      res.should.be.json;
 		      res.body.should.be.a('array');
@@ -24,10 +24,10 @@ describe('Syracuse Airport flight information API', function () {
 		    });
 	  });
 
-	  it('Should return valid JSON with GET (city)', function(done) {
+	  it('Should return valid JSON with GET (city)', (done) => {
 	  	chai.request(server.app)
 	  	.get('/city/toronto')
-	  	    .end(function(err, res){
+	  	    .end((err, res) => {
 		      res.should.have.status(200);
 		      res.should.be.json;
 		      res.body.should.be.a('array');
@@ -36,10 +36,10 @@ describe('Syracuse Airport flight information API', function () {
 		    });
 	  });
 
-	  it('Should return valid JSON with GET (direction)', function(done) {
+	  it('Should return valid JSON with GET (direction)', (done) => {
 	  	chai.request(server.app)
 	  	.get('/direction/arrival')
-	  	    .end(function(err, res){
+	  	    .end((err, res) => {
 		      res.should.have.status(200);
 		      res.should.be.json;
 		      res.body.should.be.a('array');
@@ -48,10 +48,10 @@ describe('Syracuse Airport flight information API', function () {
 		    });
 	  });
 
-	  it('Should return valid JSON with GET (gate)', function(done) {
+	  it('Should return valid JSON with GET (gate)', (done) => {
 	  	chai.request(server.app)
-	  	.get('/gate/6')
-	  	    .end(function(err, res){
+	  	.get('/gate/5')
+	  	    .end((err, res) => {
 		      res.should.have.status(200);
 		      res.should.be.json;
 		      res.body.should.be.a('array');
@@ -60,20 +60,20 @@ describe('Syracuse Airport flight information API', function () {
 		    });
 	  });
 
-	  it('Should return valid JSON with GET (flight number)', function(done) {
+	  it('Should return valid JSON with GET (flight number)', (done) => {
 	  	chai.request(server.app)
 	  	.get('/number/4876')
-	  	    .end(function(err, res){
+	  	    .end((err, res) => {
 		      res.should.have.status(200);
 		      res.should.be.json;
 		      res.body.should.be.a('array');
 		      done();
 		    });
-	  });	  
+	  });
 
 	});
 
-	after(function () {
+	after(() => {
 		server.stop();
 	});
 });

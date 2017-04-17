@@ -4,10 +4,12 @@
   "description": "An API for flight information from the Syracuse Hancock International Airport",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "start": "nodemon"
   },
   "author": "Mark Headd <mheadd@gmail.com> (http://civic.io/)",
   "license": "ISC",
+  "pre-commit": ["test"],
   "dependencies": {
     "express": "^4.13.4",
     "request": "^2.69.0",
@@ -16,6 +18,8 @@
   },
   "devDependencies": {
     "chai": "^3.2.0",
-    "chai-http": "^1.0.0"
+    "chai-http": "^1.0.0",
+    "mocha": "^3.2.0",
+    "pre-commit": "^1.2.2"
   }
 }
