@@ -12,7 +12,6 @@
   "pre-commit": "test",
   "dependencies": {
     "express": "^4.13.4",
-    "request": "^2.69.0",
     "xml2js": "^0.4.16",
     "xml2js-xpath": "^0.6.0"
   },
