@@ -59,6 +59,7 @@ var getFlightInfo = (match_string, req, res) => {
 						res.jsonp(matches);
 					}
 					else {
+						res.set('Access-Control-Allow-Origin', '*');
 						res.json(matches);
 					}
 				});
