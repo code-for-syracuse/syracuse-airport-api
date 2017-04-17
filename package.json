@@ -9,7 +9,7 @@
   },
   "author": "Mark Headd <mheadd@gmail.com> (http://civic.io/)",
   "license": "ISC",
-  "pre-commit": ["test"],
+  "pre-commit": "test",
   "dependencies": {
     "express": "^4.13.4",
     "request": "^2.69.0",
