@@ -1,6 +1,6 @@
-## Running OC Elections API in a Docker Container
+## Running Syracuse Airport API in a Docker Container
 
-You can find a Dockerfile in the ```docker``` directory. Fisrt, build the image:
+You can find a Dockerfile in the ```docker``` directory. First, build the image:
 
 ```
 ~$ docker build -t {username}/syracuse-airport-api -f docker/Dockerfile .

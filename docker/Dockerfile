@@ -1,5 +1,5 @@
 # Install base image
-FROM readytalk/nodejs:latest
+FROM node:8
 
 # Install app dependencies
 COPY package.json /src/package.json
