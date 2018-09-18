@@ -19,7 +19,6 @@ describe('Syracuse Airport flight information API', () => {
                     res.should.have.status(200);
                     res.should.be.json;
                     res.body.should.be.a('array');
-                    res.body.should.have.lengthOf(1);
                     done();
                 });
         });
@@ -31,7 +30,6 @@ describe('Syracuse Airport flight information API', () => {
                     res.should.have.status(200);
                     res.should.be.json;
                     res.body.should.be.a('array');
-                    res.body.should.have.length.above(1);
                     done();
                 });
         });
@@ -43,7 +41,6 @@ describe('Syracuse Airport flight information API', () => {
                     res.should.have.status(200);
                     res.should.be.json;
                     res.body.should.be.a('array');
-                    res.body.should.have.length.above(1);
                     done();
                 });
         });
@@ -55,7 +52,6 @@ describe('Syracuse Airport flight information API', () => {
                     res.should.have.status(200);
                     res.should.be.json;
                     res.body.should.be.a('array');
-                    res.body.should.have.length.above(0);
                     done();
                 });
         });
