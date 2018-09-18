@@ -12,6 +12,9 @@
   "pre-commit": "test",
   "dependencies": {
     "express": "^4.13.4",
+    "lodash": "^4.17.11",
+    "node-growl": "^0.1.1",
+    "superagent": "^4.0.0-beta.5",
     "xml2js": "^0.4.16",
     "xml2js-xpath": "^0.6.0"
   },
