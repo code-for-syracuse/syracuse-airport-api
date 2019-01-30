@@ -1,6 +1,6 @@
 const xml2js = require('xml2js');
 const xpath = require('xml2js-xpath');
-const http = require('http');
+const https = require('https');
 const config = require('./config').config;
 
 // Make request for airport XML and do XPath search.
@@ -9,6 +9,9 @@ exports.getFlightInfo = (match_string, req, res) => {
         .then((response) => {
             try {
                 xml2js.parseString(response, (err, json) => {
+                    if(err) {
+                        console.log(err);
+                    }
                     const matches = xpath.find(json, match_string);
                     if (req.query.callback) {
                         res.jsonp(matches);
@@ -19,7 +22,7 @@ exports.getFlightInfo = (match_string, req, res) => {
                 });
             } catch (e) {
               console.log(e);
-                res.status(500).send('An error occured.');
+                res.status(500).send('An error occurred.');
             }
         })
         .catch((error) => {
@@ -30,7 +33,7 @@ exports.getFlightInfo = (match_string, req, res) => {
 // Utility method to make an HTTP request
 makeRequest = (url) => {
   return new Promise((resolve, reject) => {
-    http.get(url, (res) => {
+    https.get(url, (res) => {
           res.on('error', (error) => {
               reject(error);
           });
