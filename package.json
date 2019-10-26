@@ -12,9 +12,6 @@
   "dependencies": {
     "express": "^4.13.4",
     "follow-redirects": "^1.9.0",
-    "lodash": "^4.17.15",
-    "node-growl": "^0.1.1",
-    "superagent": "^4.0.0-beta.5",
     "xml2js": "^0.4.16",
     "xml2js-xpath": "^0.10.0"
   },
@@ -22,8 +19,6 @@
   "devDependencies": {
     "chai": "^3.2.0",
     "chai-http": "^4.2.0",
-    "mocha": "^5.2.0",
-    "pre-commit": "^1.2.2"
-  },
-  "pre-commit": "test"
+    "mocha": "^5.2.0"
+  }
 }
