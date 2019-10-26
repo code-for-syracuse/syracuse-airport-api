@@ -28,7 +28,7 @@ exports.getFlightInfo = (match_string, req, res) => {
         .catch((error) => {
             res.status(500).send('Unable to retrieve flight data');
         });
-};
+}
 
 // Utility method to make an HTTP request
 makeRequest = (url) => {
