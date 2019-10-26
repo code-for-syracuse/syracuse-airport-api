@@ -1,6 +1,6 @@
 const xml2js = require('xml2js');
 const xpath = require('xml2js-xpath');
-const https = require('https');
+const https = require('follow-redirects').https;
 const config = require('./config').config;
 
 // Make request for airport XML and do XPath search.

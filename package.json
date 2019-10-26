@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.4",
+    "follow-redirects": "^1.9.0",
     "lodash": "^4.17.15",
     "node-growl": "^0.1.1",
     "superagent": "^4.0.0-beta.5",
@@ -23,5 +24,6 @@
     "chai-http": "^4.2.0",
     "mocha": "^5.2.0",
     "pre-commit": "^1.2.2"
-  }
+  },
+  "pre-commit": "test"
 }
