@@ -16,6 +16,7 @@ Pre-requisities:
 * [Azure Functions extension for VS Code](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions)
 * [Azure Account](https://azure.microsoft.com/en-us/)
 
+Steps:
 1. Click on the Azure icon on the left hand side of VS Code.
 2. Click on icon `Deploy to function app...`
 3. Select `Create new Function App in Azure`
@@ -23,15 +24,14 @@ Pre-requisities:
 5. Press enter to confirm
 6. Select runtime (Node.js 10.x)
 7. Select a location (US East)
-8. 
-
+8. Right mouse click on the function and copy the function URL to access JSON responses (see below).
 
 ## Example usage
 
 Get flights by flight number
 
 ```curl
-~$ curl https://{host}/flightinfo/number/2815
+~$ curl https://{name.azurewebsites.net}/flightinfo/number/2815
 ```
 
 ```json
@@ -57,24 +57,24 @@ Get flights by flight number
 Get flights by gate number
 
 ```curl
-~$ curl https://{host}/flightinfo/gate/20
+~$ curl https://{name.azurewebsites.net}/flightinfo/gate/20
 ```
 
 Get flights by city
 
 ```curl
-~$ curl https://{host}/flightinfo/city/toronto
+~$ curl https://{name.azurewebsites.net}/flightinfo/city/toronto
 ```
 
 Get flights by direction
 
 ```curl
-~$ curl https://{host}/flightinfo/direction/arrival
+~$ curl https://{name.azurewebsites.net}/flightinfo/direction/arrival
 ```
 Get all flights
 
 ```curl
-~$ curl https://{host}/flightinfo/
+~$ curl https://{name.azurewebsites.net}/flightinfo/
 ```
 
 Note: JSONP is supported by using a ```callback``` parameter with requests.
