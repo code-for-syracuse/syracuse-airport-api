@@ -4,14 +4,14 @@ const utilities = require('./utilities');
 // Set up Express app.
 const app = express();
 var server;
+const port = process.argv[3] || 3000;
 
 exports.start = () => {
-    const port = process.argv[2] || 3000;
-    server = app.listen(port);
-}
+    server = app.listen(port, console.log(`Example app listening on port ${port}!`));
+};
 exports.stop = () => {
     server.close();
-}
+};
 exports.app = app;
 
 // Get all flights.

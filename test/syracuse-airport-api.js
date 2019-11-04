@@ -3,6 +3,8 @@ const chaiHttp = require('chai-http');
 const server = require('../server');
 const should = chai.should();
 
+// Create mock server to serve airport xml.
+
 chai.use(chaiHttp);
 
 describe('Syracuse Airport flight information API', () => {

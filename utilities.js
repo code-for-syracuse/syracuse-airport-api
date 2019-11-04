@@ -1,6 +1,7 @@
 const xml2js = require('xml2js');
 const xpath = require('xml2js-xpath');
-const https = require('follow-redirects').https;
+const testing = process.argv[2] || false;
+const agent = testing ? require('follow-redirects').http : require('follow-redirects').https;
 const config = require('./config').config;
 
 // Make request for airport XML and do XPath search.
@@ -26,6 +27,7 @@ exports.getFlightInfo = (match_string, req, res) => {
             }
         })
         .catch((error) => {
+            console.group(error);
             res.status(500).send('Unable to retrieve flight data');
         });
 };
@@ -33,7 +35,7 @@ exports.getFlightInfo = (match_string, req, res) => {
 // Utility method to make an HTTP request
 makeRequest = (url) => {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
+    agent.get(url, (res) => {
           res.on('error', (error) => {
               reject(error);
           });

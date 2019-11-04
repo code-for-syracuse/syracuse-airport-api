@@ -1,0 +1,60 @@
+<flights date="10/27/19135728">
+<flight date="10/27/19" claim="A2" remarks="ARRIVED" gate="1" actualtime="1315" scheduletime="1318" city="CHICAGO-O`HARE" flightnumber="1442" airlinecode="F9" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ARRIVED" gate="26" actualtime="1350" scheduletime="1352" city="WASHINGTON-IAD" flightnumber="3861" airlinecode="UA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks=" 2:08P" gate="22" actualtime="1408" scheduletime="1359" city="NEWARK" flightnumber="3977" airlinecode="UA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks=" 3:30P" gate="10" actualtime="1530" scheduletime="1420" city="WASHINGTON-DCA" flightnumber="4743" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks=" 2:24P" gate="6" actualtime="1424" scheduletime="1433" city="CHARLOTTE, NC" flightnumber="5659" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks=" 5:16P" gate="9" actualtime="1716" scheduletime="1438" city="CHICAGO-O`HARE" flightnumber="3253" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks=" 2:35P" gate="21" actualtime="1435" scheduletime="1458" city="CHICAGO-O`HARE" flightnumber="547" airlinecode="UA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks=" 3:27P" gate="26" actualtime="1527" scheduletime="1525" city="NEWARK" flightnumber="4038" airlinecode="UA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="CANCELED" gate="6" actualtime="1531" scheduletime="1531" city="PHILADELPHIA" flightnumber="4904" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="23" actualtime="1643" scheduletime="1643" city="NEW YORK-LGA" flightnumber="3896" airlinecode="DL" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks=" 4:41P" gate="21" actualtime="1641" scheduletime="1653" city="CHICAGO-O`HARE" flightnumber="5857" airlinecode="UA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="8" actualtime="1700" scheduletime="1700" city="CHARLOTTE, NC" flightnumber="1829" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="25" actualtime="1715" scheduletime="1715" city="DETROIT" flightnumber="4134" airlinecode="DL" indicator="D" type="A"/>
+<flight date="10/27/19" claim="A" remarks="ON TIME" gate="11" actualtime="1716" scheduletime="1716" city="ORLANDO-SANFORD" flightnumber="2249" airlinecode="G4" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks=" 5:03P" gate="24" actualtime="1703" scheduletime="1717" city="ATLANTA" flightnumber="2006" airlinecode="DL" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="10" actualtime="1747" scheduletime="1747" city="CHICAGO-O`HARE" flightnumber="3029" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="21" actualtime="1805" scheduletime="1805" city="NEWARK" flightnumber="4174" airlinecode="UA" indicator="D" type="A"/>
+<flight date="10/27/19" claim="A" remarks="ON TIME" gate="11" actualtime="1815" scheduletime="1815" city="NASHVILLE" flightnumber="773" airlinecode="G4" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="8" actualtime="1829" scheduletime="1829" city="PHILADELPHIA" flightnumber="4443" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="26" actualtime="1903" scheduletime="1903" city="WASHINGTON-IAD" flightnumber="4942" airlinecode="UA" indicator="D" type="A"/>
+<flight date="10/27/19" claim="A1" remarks="ON TIME" gate="3" actualtime="2016" scheduletime="2016" city="NEW YORK-JFK" flightnumber="2516" airlinecode="B6" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="10" actualtime="2031" scheduletime="2031" city="BOSTON" flightnumber="4742" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="21" actualtime="2055" scheduletime="2055" city="CHICAGO-O`HARE" flightnumber="1643" airlinecode="UA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="5" actualtime="2148" scheduletime="2148" city="CHICAGO-O`HARE" flightnumber="3690" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="9" actualtime="2200" scheduletime="2200" city="PHILADELPHIA" flightnumber="4860" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim="A1" remarks="ON TIME" gate="1" actualtime="2204" scheduletime="2204" city="ORLANDO" flightnumber="656" airlinecode="B6" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="22" actualtime="2245" scheduletime="2245" city="NEWARK" flightnumber="4388" airlinecode="UA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="24" actualtime="2259" scheduletime="2259" city="NEW YORK-JFK" flightnumber="3416" airlinecode="DL" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="20" actualtime="2308" scheduletime="2308" city="NEW YORK-LGA" flightnumber="4048" airlinecode="DL" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="26" actualtime="2328" scheduletime="2328" city="WASHINGTON-IAD" flightnumber="4955" airlinecode="UA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="24" actualtime="2336" scheduletime="2336" city="MINNEAPOLIS" flightnumber="2166" airlinecode="DL" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="10" actualtime="2339" scheduletime="2339" city="WASHINGTON-DCA" flightnumber="4726" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks=" 11:45P" gate="25" actualtime="2345" scheduletime="2350" city="ATLANTA" flightnumber="2013" airlinecode="DL" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="23" actualtime="2355" scheduletime="2355" city="DETROIT" flightnumber="2143" airlinecode="DL" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="6" actualtime="2357" scheduletime="2357" city="CHARLOTTE, NC" flightnumber="1976" airlinecode="AA" indicator="D" type="A"/>
+<flight date="10/28/19" claim="A1" remarks="ON TIME" gate="3" actualtime="0008" scheduletime="0008" city="BOSTON" flightnumber="845" airlinecode="B6" indicator="D" type="A"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="1" actualtime="1408" scheduletime="1408" city="CHICAGO-O`HARE" flightnumber="1443" airlinecode="F9" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="22" actualtime="1430" scheduletime="1430" city="NEWARK" flightnumber="4167" airlinecode="UA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="26" actualtime="1445" scheduletime="1445" city="WASHINGTON-IAD" flightnumber="3872" airlinecode="UA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks=" 3:45P" gate="10" actualtime="1545" scheduletime="1445" city="WASHINGTON-DCA" flightnumber="4743" airlinecode="AA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="6" actualtime="1503" scheduletime="1503" city="CHARLOTTE, NC" flightnumber="5659" airlinecode="AA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks=" 5:38P" gate="9" actualtime="1738" scheduletime="1509" city="CHICAGO-O`HARE" flightnumber="3253" airlinecode="AA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="21" actualtime="1545" scheduletime="1545" city="CHICAGO-O`HARE" flightnumber="2288" airlinecode="UA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="26" actualtime="1555" scheduletime="1555" city="NEWARK" flightnumber="4036" airlinecode="UA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="CANCELED" gate="6" actualtime="1601" scheduletime="1601" city="PHILADELPHIA" flightnumber="4904" airlinecode="AA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="23" actualtime="1725" scheduletime="1725" city="NEW YORK-LGA" flightnumber="3896" airlinecode="DL" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="21" actualtime="1730" scheduletime="1730" city="CHICAGO-O`HARE" flightnumber="5783" airlinecode="UA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="25" actualtime="1754" scheduletime="1754" city="DETROIT" flightnumber="4134" airlinecode="DL" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="8" actualtime="1800" scheduletime="1800" city="CHARLOTTE, NC" flightnumber="1829" airlinecode="AA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="24" actualtime="1801" scheduletime="1801" city="ATLANTA" flightnumber="2006" airlinecode="DL" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="11" actualtime="1805" scheduletime="1805" city="ORLANDO-SANFORD" flightnumber="2386" airlinecode="G4" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="10" actualtime="1824" scheduletime="1824" city="CHICAGO-O`HARE" flightnumber="3023" airlinecode="AA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="21" actualtime="1835" scheduletime="1835" city="NEWARK" flightnumber="4184" airlinecode="UA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="8" actualtime="1859" scheduletime="1859" city="PHILADELPHIA" flightnumber="4443" airlinecode="AA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="11" actualtime="1905" scheduletime="1905" city="NASHVILLE" flightnumber="784" airlinecode="G4" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="26" actualtime="1945" scheduletime="1945" city="WASHINGTON-IAD" flightnumber="4979" airlinecode="UA" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="3" actualtime="2051" scheduletime="2051" city="NEW YORK-JFK" flightnumber="1815" airlinecode="B6" indicator="D" type="D"/>
+<flight date="10/27/19" claim=" " remarks="ON TIME" gate="10" actualtime="2058" scheduletime="2058" city="BOSTON" flightnumber="4742" airlinecode="AA" indicator="D" type="D"/>
+</flights>

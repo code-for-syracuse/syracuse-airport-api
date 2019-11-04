@@ -1,4 +1,4 @@
 exports.config = {
 	// URL to airport XML file.
-	URL: 'https://www.syrairport.org/flightdata/data.xml'
-}
+	URL: process.argv[4] || 'https://www.syrairport.org/flightdata/data.xml'
+};
