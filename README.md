@@ -17,7 +17,7 @@ To create a lightweight REST interface on top of the existing airport flight inf
 Get flights by flight number
 
 ```curl
-~$ curl https://apis.opensyracuse.org/flightinfo/number/2815
+~$ curl https://{host}/flightinfo/number/2815
 ```
 
 ```json
@@ -43,24 +43,24 @@ Get flights by flight number
 Get flights by gate number
 
 ```curl
-~$ curl https://apis.opensyracuse.org/flightinfo/gate/20
+~$ curl https://{host}/flightinfo/gate/20
 ```
 
 Get flights by city
 
 ```curl
-~$ curl https://apis.opensyracuse.org/flightinfo/city/toronto
+~$ curl https://{host}/flightinfo/city/toronto
 ```
 
 Get flights by direction
 
 ```curl
-~$ curl https://apis.opensyracuse.org/flightinfo/direction/arrival
+~$ curl https://{host}/flightinfo/direction/arrival
 ```
 Get all flights
 
 ```curl
-~$ curl https://apis.opensyracuse.org/flightinfo/
+~$ curl https://{host}/flightinfo/
 ```
 
 Note: JSONP is supported by using a ```callback``` parameter with requests.
