@@ -16,7 +16,7 @@
     "xml2js-xpath": "^0.10.0"
   },
   "pre-commit": "test",
-  "repository": "https://github.com/UpstateData/syracuse-airport-api",
+  "repository": "https://github.com/code-for-syracuse/syracuse-airport-api",
   "devDependencies": {
     "chai": "^3.2.0",
     "chai-http": "^4.2.0",
