@@ -2,25 +2,18 @@
   "name": "syracuse-airport-api",
   "version": "0.0.1",
   "description": "An API for flight information from the Syracuse Hancock International Airport",
-  "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "start": "nodemon"
+    "test": "echo \"No tests yet...\""
   },
   "author": "Mark Headd <mheadd@gmail.com> (http://civic.io/)",
   "license": "ISC",
+  "repository": "https://github.com/code-for-syracuse/syracuse-airport-api",
   "dependencies": {
-    "express": "^4.13.4",
+    "azure-function-express": "^2.0.0",
+    "express": "^4.17.1",
     "follow-redirects": "^1.9.0",
-    "xml2js": "^0.4.16",
+    "xml2js": "^0.4.22",
     "xml2js-xpath": "^0.10.0"
   },
-  "pre-commit": "test",
-  "repository": "https://github.com/code-for-syracuse/syracuse-airport-api",
-  "devDependencies": {
-    "chai": "^3.2.0",
-    "chai-http": "^4.2.0",
-    "mocha": "^5.2.0",
-    "pre-commit": "^1.2.2"
-  }
+  "devDependencies": {}
 }
