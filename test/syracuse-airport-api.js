@@ -19,17 +19,19 @@ describe('Syracuse Airport flight information API', () => {
                     res.should.have.status(200);
                     res.should.be.json;
                     res.body.should.be.a('array');
+                    res.body.should.have.lengthOf(1)
                     done();
                 });
         });
 
         it('Should return valid JSON with GET (city)', (done) => {
             chai.request(server.app)
-                .get('/city/toronto')
+                .get('/city/philadelphia')
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.should.be.json;
                     res.body.should.be.a('array');
+                    res.body.should.have.lengthOf(9)
                     done();
                 });
         });
@@ -41,31 +43,46 @@ describe('Syracuse Airport flight information API', () => {
                     res.should.have.status(200);
                     res.should.be.json;
                     res.body.should.be.a('array');
+                    res.body.should.have.lengthOf(37)
                     done();
                 });
         });
 
         it('Should return valid JSON with GET (gate)', (done) => {
             chai.request(server.app)
-                .get('/gate/5')
+                .get('/gate/8')
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.should.be.json;
                     res.body.should.be.a('array');
+                    res.body.should.have.lengthOf(5)
                     done();
                 });
         });
 
         it('Should return valid JSON with GET (flight number)', (done) => {
             chai.request(server.app)
-                .get('/number/4876')
+                .get('/number/4899')
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.should.be.json;
                     res.body.should.be.a('array');
+                    res.body.should.have.lengthOf(1)
                     done();
                 });
         });
+
+        it('Should return an empty array for invalid gate number', (done) => {
+            chai.request(server.app)
+            .get('/gate/1000')
+            .end((err, res) => {
+                res.should.have.status(200);
+                res.should.be.json;
+                res.body.should.be.a('array');
+                res.body.should.have.lengthOf(0)
+                done();
+            });
+        })
 
     });
 
