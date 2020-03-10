@@ -1,12 +1,13 @@
 const express = require('express');
 const utilities = require('./utilities');
+const config = require('./config').config;
 
 // Set up Express app.
 const app = express();
 var server;
 
 exports.start = () => {
-    const port = process.argv[2] || 3000;
+    const port = process.argv[2] || config.PORT;
     server = app.listen(port);
 }
 exports.stop = () => {
