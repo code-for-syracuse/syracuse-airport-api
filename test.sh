@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Start local wb server to serve test xml.
-./node_modules/http-server/bin/http-server ./data &
+http-server ./data &
 
 # Set env variable and run tests.
 env TESTING=1 mocha
