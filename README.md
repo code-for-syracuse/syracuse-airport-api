@@ -1,3 +1,5 @@
+![](https://github.com/code-for-syracuse/syracuse-airport-api/workflows/Node.js%20CI/badge.svg)
+
 # Syracuse Airport Flight Info API
 
 An API for flight data from the Syracuse Hancock International Airport.
