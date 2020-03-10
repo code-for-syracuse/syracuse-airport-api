@@ -7,7 +7,7 @@ const app = express();
 var server;
 
 exports.start = () => {
-    const port = process.argv[2] || config.PORT;
+    const port = process.argv[2] || process.env.PORT || config.PORT;
     server = app.listen(port);
 }
 exports.stop = () => {
@@ -23,24 +23,24 @@ app.get('/', (req, res) => {
 
 // Get flights by flight number.
 app.get('/number/:number', (req, res) => {
-    const match_string = "//flight[@flightnumber='" + req.params.number + "']";
+    const match_string = `//flight[@flightnumber='${req.params.number}']`;
     utilities.getFlightInfo(match_string, req, res);
 });
 
 // Get flights by gate.
 app.get('/gate/:gate', (req, res) => {
-    const match_string = "//flight[@gate='" + req.params.gate + "']";
+    const match_string = `//flight[@gate='${req.params.gate}']`;
     utilities.getFlightInfo(match_string, req, res);
 });
 
 // Get flights by city.
 app.get('/city/:city', (req, res) => {
-    const match_string = "//flight[@city='" + utilities.formatCity(req.params.city) + "']";
+    const match_string = `//flight[@city='${utilities.formatCity(req.params.city)}']`;
     utilities.getFlightInfo(match_string, req, res);
 });
 
 // Get flights by direction.
 app.get('/direction/:direction', (req, res) => {
-    var match_string = "//flight[@type='" + utilities.formatDirection(req.params.direction) + "']";
+    var match_string = `//flight[@type='${utilities.formatDirection(req.params.direction)}']`;
     utilities.getFlightInfo(match_string, req, res);
 });
