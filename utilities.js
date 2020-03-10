@@ -1,11 +1,17 @@
 const xml2js = require('xml2js');
 const xpath = require('xml2js-xpath');
 const https = require('follow-redirects').https;
+const http = require('http');
 const config = require('./config').config;
 
 // Make request for airport XML and do XPath search.
 exports.getFlightInfo = (match_string, req, res) => {
-    makeRequest(config.URL)
+    
+    // If testing, use local URL. Otherwise, use remote URL.
+    const url = parseInt(process.env.TESTING) ? config.TEST_URL : config.URL;
+
+    // Make request for data.
+    makeRequest(url)
         .then((response) => {
             try {
                 xml2js.parseString(response, (err, json) => {
@@ -33,7 +39,8 @@ exports.getFlightInfo = (match_string, req, res) => {
 // Utility method to make an HTTP request
 makeRequest = (url) => {
   return new Promise((resolve, reject) => {
-    https.get(url, (res) => {
+    const agent = parseInt(process.env.TESTING) ? http : https;
+    agent.get(url, (res) => {
           res.on('error', (error) => {
               reject(error);
           });

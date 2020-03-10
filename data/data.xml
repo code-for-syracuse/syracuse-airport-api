@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<flights date="03/10/20100734">
+<flight date="03/10/20" claim=" " remarks="  11:32A" gate="10" actualtime="1132" scheduletime="1055" city="CHICAGO-O`HARE" flightnumber="3180" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="  11:24A" gate="8" actualtime="1124" scheduletime="1100" city="CHARLOTTE, NC" flightnumber="2934" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="  11:06A" gate="24" actualtime="1106" scheduletime="1121" city="ATLANTA" flightnumber="3053" airlinecode="DL" indicator="D" type="A" />
+<flight date="03/10/20" claim="A1" remarks="ON TIME" gate="6" actualtime="1135" scheduletime="1135" city="WASHINGTON-DCA" flightnumber="4475" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim="A" remarks="ON TIME" gate="11" actualtime="1148" scheduletime="1148" city="ST.PETERSBURG" flightnumber="896" airlinecode="G4" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="22" actualtime="1149" scheduletime="1149" city="CHICAGO-O`HARE" flightnumber="4545" airlinecode="UA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="1202" scheduletime="1202" city="NEWARK" flightnumber="4499" airlinecode="UA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="8" actualtime="1217" scheduletime="1217" city="PHILADELPHIA" flightnumber="4850" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="25" actualtime="1222" scheduletime="1222" city="NEW YORK-JFK" flightnumber="5105" airlinecode="DL" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="DELAYED" gate="23" actualtime="1348" scheduletime="1239" city="DETROIT" flightnumber="3943" airlinecode="DL" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="22" actualtime="1357" scheduletime="1357" city="WASHINGTON-IAD" flightnumber="3813" airlinecode="UA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="9" actualtime="1410" scheduletime="1410" city="WASHINGTON-DCA" flightnumber="5642" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="1414" scheduletime="1414" city="NEWARK" flightnumber="4899" airlinecode="UA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="6" actualtime="1434" scheduletime="1434" city="CHICAGO-O`HARE" flightnumber="3184" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="1518" scheduletime="1518" city="DENVER" flightnumber="5875" airlinecode="UA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="6" actualtime="1538" scheduletime="1538" city="PHILADELPHIA" flightnumber="5410" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="" actualtime="1629" scheduletime="1629" city="TAMPA" flightnumber="2542" airlinecode="F9" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="23" actualtime="1633" scheduletime="1633" city="NEW YORK-LGA" flightnumber="3954" airlinecode="DL" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="1649" scheduletime="1649" city="CHICAGO-O`HARE" flightnumber="4596" airlinecode="UA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="24" actualtime="1706" scheduletime="1706" city="ATLANTA" flightnumber="2006" airlinecode="DL" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="25" actualtime="1707" scheduletime="1707" city="DETROIT" flightnumber="3961" airlinecode="DL" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="9" actualtime="1755" scheduletime="1755" city="CHICAGO-O`HARE" flightnumber="3175" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim="A" remarks="ON TIME" gate="3" actualtime="1801" scheduletime="1801" city="ORLANDO" flightnumber="656" airlinecode="B6" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="6" actualtime="1802" scheduletime="1802" city="PHILADELPHIA" flightnumber="4855" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="25" actualtime="1826" scheduletime="1826" city="NEW YORK-JFK" flightnumber="4823" airlinecode="DL" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="1904" scheduletime="1904" city="WASHINGTON-IAD" flightnumber="4942" airlinecode="UA" indicator="D" type="A" />
+<flight date="03/10/20" claim="A" remarks="ON TIME" gate="3" actualtime="1917" scheduletime="1917" city="NEW YORK-JFK" flightnumber="2516" airlinecode="B6" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="" actualtime="1924" scheduletime="1924" city="PHILADELPHIA" flightnumber="4840" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="9" actualtime="2028" scheduletime="2028" city="BOSTON" flightnumber="4742" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="2052" scheduletime="2052" city="CHICAGO-O`HARE" flightnumber="1643" airlinecode="UA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="" actualtime="2140" scheduletime="2140" city="CHICAGO-O`HARE" flightnumber="1662" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="8" actualtime="2152" scheduletime="2152" city="CHARLOTTE, NC" flightnumber="1976" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="21" actualtime="2224" scheduletime="2224" city="NEWARK" flightnumber="4918" airlinecode="UA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="" actualtime="2246" scheduletime="2246" city="PHILADELPHIA" flightnumber="4589" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="22" actualtime="2314" scheduletime="2314" city="WASHINGTON-IAD" flightnumber="6217" airlinecode="UA" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="10" actualtime="2326" scheduletime="2326" city="WASHINGTON-DCA" flightnumber="5600" airlinecode="AA" indicator="D" type="A" />
+<flight date="03/11/20" claim=" " remarks="ON TIME" gate="3" actualtime="0006" scheduletime="0006" city="BOSTON" flightnumber="845" airlinecode="B6" indicator="D" type="A" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="11" actualtime="1000" scheduletime="1000" city="ORLANDO-SANFORD" flightnumber="2120" airlinecode="G4" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="DEPARTED" gate="24" actualtime="1000" scheduletime="1005" city="NEW YORK-LGA" flightnumber="5276" airlinecode="DL" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="  11:36A" gate="10" actualtime="1136" scheduletime="1125" city="CHICAGO-O`HARE" flightnumber="3180" airlinecode="AA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="8" actualtime="1156" scheduletime="1156" city="CHARLOTTE, NC" flightnumber="2934" airlinecode="AA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="24" actualtime="1206" scheduletime="1206" city="ATLANTA" flightnumber="3053" airlinecode="DL" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="6" actualtime="1214" scheduletime="1214" city="WASHINGTON-DCA" flightnumber="4475" airlinecode="AA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="22" actualtime="1235" scheduletime="1235" city="NEWARK" flightnumber="4545" airlinecode="UA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="11" actualtime="1238" scheduletime="1238" city="ST.PETERSBURG" flightnumber="991" airlinecode="G4" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="8" actualtime="1245" scheduletime="1245" city="PHILADELPHIA" flightnumber="4850" airlinecode="AA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="25" actualtime="1252" scheduletime="1252" city="NEW YORK-JFK" flightnumber="5105" airlinecode="DL" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="1300" scheduletime="1300" city="CHICAGO-O`HARE" flightnumber="4591" airlinecode="UA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="  2:08P" gate="23" actualtime="1408" scheduletime="1314" city="DETROIT" flightnumber="3943" airlinecode="DL" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="22" actualtime="1430" scheduletime="1430" city="WASHINGTON-IAD" flightnumber="4832" airlinecode="UA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="1445" scheduletime="1445" city="NEWARK" flightnumber="5021" airlinecode="UA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="9" actualtime="1453" scheduletime="1453" city="WASHINGTON-DCA" flightnumber="5642" airlinecode="AA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="6" actualtime="1504" scheduletime="1504" city="CHICAGO-O`HARE" flightnumber="3184" airlinecode="AA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="1555" scheduletime="1555" city="DENVER" flightnumber="5938" airlinecode="UA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="6" actualtime="1608" scheduletime="1608" city="PHILADELPHIA" flightnumber="5410" airlinecode="AA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="23" actualtime="1707" scheduletime="1707" city="NEW YORK-LGA" flightnumber="3954" airlinecode="DL" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="1730" scheduletime="1730" city="CHICAGO-O`HARE" flightnumber="4597" airlinecode="UA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="25" actualtime="1742" scheduletime="1742" city="DETROIT" flightnumber="3961" airlinecode="DL" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="1" actualtime="1744" scheduletime="1744" city="TAMPA" flightnumber="2543" airlinecode="F9" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="24" actualtime="1751" scheduletime="1751" city="ATLANTA" flightnumber="2006" airlinecode="DL" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="" actualtime="1826" scheduletime="1826" city="CHICAGO-O`HARE" flightnumber="3175" airlinecode="AA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="3" actualtime="1846" scheduletime="1846" city="ORLANDO" flightnumber="655" airlinecode="B6" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="6" actualtime="1848" scheduletime="1848" city="PHILADELPHIA" flightnumber="4855" airlinecode="AA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="25" actualtime="1900" scheduletime="1900" city="NEW YORK-JFK" flightnumber="4823" airlinecode="DL" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="26" actualtime="1945" scheduletime="1945" city="WASHINGTON-IAD" flightnumber="4979" airlinecode="UA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="" actualtime="1955" scheduletime="1955" city="PHILADELPHIA" flightnumber="4840" airlinecode="AA" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="3" actualtime="1956" scheduletime="1956" city="NEW YORK-JFK" flightnumber="1815" airlinecode="B6" indicator="D" type="D" />
+<flight date="03/10/20" claim=" " remarks="ON TIME" gate="9" actualtime="2058" scheduletime="2058" city="BOSTON" flightnumber="4721" airlinecode="AA" indicator="D" type="D" />
+</flights>
