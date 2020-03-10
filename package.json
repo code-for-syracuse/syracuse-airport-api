@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./test.sh",
-    "start": "nodemon"
+    "start": "node index.js"
   },
   "author": "Mark Headd <mheadd@gmail.com> (http://civic.io/)",
   "license": "ISC",
