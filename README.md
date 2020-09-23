@@ -2,7 +2,7 @@
 
 # Syracuse Airport Flight Info API
 
-An API for flight data from the Syracuse Hancock International Airport.
+An API for flight information data from the Syracuse Hancock International Airport.
 
 ## Rationale
 
